@@ -1,6 +1,6 @@
 body
 {
-  background-color:  #CE7777;
+  background-color:  #EAE7B1;
 }
 
 .content
@@ -48,6 +48,9 @@ body
     background-image: none;
     border-color: beige;
 }
+.form-control {
+    background-color: beige;
+}
 
 
 /*Hero*/
@@ -92,6 +95,7 @@ body
     padding-left: 1%;
     padding-right: 1%;
     padding-bottom: 4%;
+    background-color: beige;
 }
 
 h5 {
