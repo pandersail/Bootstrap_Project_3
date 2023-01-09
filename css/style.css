@@ -1,6 +1,6 @@
 body
 {
-  background-color: wheat;
+  background-color:  #CE7777;
 }
 
 .content
@@ -25,8 +25,100 @@ body
 }
   
 
+/* Header  */
+.navbar-light .navbar-brand {
+    color: beige;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: beige;
+}
+
+.bg-light {
+    background-color: #433f3f!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: beige;
+}
+
+.btn-outline-success {
+    color: beige;
+    background-color: transparent;
+    background-image: none;
+    border-color: beige;
+}
+
+
+/*Hero*/
+#container-emma {
+    margin-right: 8%!important;
+    
+}
+
+.lead {
+    margin-left: 80%;
+}
+
+@media (min-width: 576px) {
+    #container-emma {
+    max-width: 650px;
+}
+}
+
+@media (min-width: 768px) {
+    #container-emma {
+        margin-right: 20%!important;
+        max-width: 850px;
+}
+}
+
+@media (min-width: 1250px) {
+#container-emma {
+    max-width: 1200px;
+}
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+}
+
+/* About me */
+.pandersail {
+    padding: 2%;
+}
+
+.skills {
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 4%;
+}
+
+h5 {
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+/* works */
+div .card {
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.card-body {
+    background-color: #e9ecef;
+}
+.btn-primary {
+    color: beige;
+    background-color: #433f3f;
+    border-color: #433f3f;
+}
+
   /* Footer */
-  
+  #footer-angelo {
+    background-color: beige!important;
+  }
   /* Bootstrap code */
   
   

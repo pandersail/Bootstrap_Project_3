@@ -11,7 +11,7 @@
 <body>
     <!-- Navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Angelo Silva</a>
+        <a class="navbar-brand" class="nav-bar-text" href="#">Angelo Silva</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -19,21 +19,21 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">About-me <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#About-me">About-me <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Works</a>
+              <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Links
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Secret Escapes</a>
-                <a class="dropdown-item" href="#">Salary-man recipes</a>
-                <a class="dropdown-item" href="#">Horiseon</a>
+                <a class="dropdown-item" href="#secret-escapes">Secret Escapes</a>
+                <a class="dropdown-item" href="#salary-man">Salary-man recipes</a>
+                <a class="dropdown-item" href="#horiseon">Horiseon</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Contact-me</a>
+                <a class="dropdown-item" href="#footer-angelo">Contact-me</a>
               </div>
             </li>
             <!--<li class="nav-item">
@@ -48,34 +48,34 @@
     </nav>
 
     <!-- Hero Section -->
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4">Fluid jumbotron</h1>
+    <figure class="jumbotron jumbotron-fluid">
+        <div class="container" id="container-emma">
+          <h1 class="display-4">Brutal responsiveness</h1>
           <img src="./images/Emma.jpg" class="cardContainer col-lg-12 col-md-12 col-sm-12" alt="...">
-          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+          <p class="lead">Be better</p>          
         </div>
-      </div>
+      </figure>
 
     <!-- About / contact section -->
-    <div class="media">
+    <section class="media">
     <div class="pandersail">
         <img src="./images/pandersail.png" class="align-self-center mr-3" alt="...">
         <div class="media-body">
-          <h3 class="mt-0">About me</h3>
-          <p class="mb-0">My name is Angelo and I’m passionate about many things, some of those things are: photography, brazilian jiu-jitsu, writing and oil-painting. All of these have <i>good planning</i> in common, which is important to me. Feel me to navigate my portfolio page and explore the links.</p>
-          <p class="mb-0"><br>You will find how to contact me at the footer, I’m always happy to chat. ☀️.</p>
+          <h3 class="mt-0" id="About-me">About me</h3>
+          <p class="mb-0">Hi there, my name is Angelo and I have a passion for creativity, self-improvement, and the arts. Some of my favorite hobbies include photography, Brazilian jiu-jitsu, writing, and oil painting. All of these activities require careful planning and attention to detail, which are values that are important to me.</p>
+          <p class="mb-0"><br>If you'd like to learn more about me, feel free to take a look at my portfolio page and explore the links. You can find my contact information at the footer of the page, and I'm always happy to chat and connect with others. ☀️</p>
         </div>
       </div>
-    </div>
+    </section>
 
      <!--Image gallery -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <figure id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
-        <div class="carousel-inner">
+        <div class="carousel-inner" class="photos">
           <div class="carousel-item active">
             <img src="./images/margot.jpg" class="cardContainer col-lg-12 col-md-12 col-sm-12" alt="...">
           </div>
@@ -94,10 +94,10 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
-    </div>
+      </figure>
 
     <!-- Skills section -->
-    <div class="skills">
+    <section class="skills" id="skills">
       <h5>Skills I want to acquire:</h5>
       <span class="badge badge-primary">Javascript</span>
       <span class="badge badge-secondary">React</span>
@@ -107,52 +107,52 @@
       <span class="badge badge-info">Computer science concepts</span>
       <span class="badge badge-light">MySQL</span>
       <span class="badge badge-dark">AngularJS</span>
-   </div>
+    </section>
     <!-- Work Section -->
-    <div class="container-fluid">
+    <figure class="container-fluid">
         <div class="row">
             <!-- Project 1 -->
             <div class="cardContainer col-lg-12 col-md-12 col-sm-12">
             <div class="card" >
-                <img src="./images/landingPage.png" class="card-img-top" alt="...">
+                <img src="./images/landingPage.png" id="secret-escapes" class="card-img-top" alt="Image of the landing page of a travel website">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Secret Escapes</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <a href="https://pandersail.github.io/landing-page/" class="btn btn-primary">Travel</a>
                 </div>
               </div>
               </div>
               <!-- Project 2 -->
               <div class="cardContainer col-lg-6 col-md-6 col-sm-12">
               <div class="card">
-                <img src="./images/recipes.png" class="card-img-top" alt="...">
+                <img src="./images/recipes.png" id="salary-man" class="card-img-top" alt="Image of a Onigiri recipe website">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Salary-man recipes</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <a href="https://pandersail.github.io/odin-recipes/" class="btn btn-primary">Eat</a>
                 </div>
               </div>
               </div>
               <!-- Project 3 -->
               <div class="cardContainer col-lg-6 col-md-6 col-sm-12">
                 <div class="card">
-                  <img src="./images/Horiseon.png" class="card-img-top" alt="...">
+                  <img src="./images/Horiseon.png" id="horiseon" class="card-img-top" alt="Image of a marketing website where we see four people brainstorming together">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title">Horiseon</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="https://pandersail.github.io/Horiseon_Project_1/" class="btn btn-primary">Reach</a>
                   </div>
                 </div>
               </div>
         </div>
-    </div>
+      </figure>
     
     <!-- Footer section -->
     <!-- Remove the container if you want to extend the Footer to full width. -->
-     <div class="container my-5">
+     <section class="container my-5" id="footer-angelo">
       <footer class="text-center text-black" >
         <!-- Grid container -->
-        <div class="container">
+        <div class="container" id="footer-angelo">
           <!-- Section: Links -->
           <section class="mt-2">
             <!-- Grid row-->
@@ -160,8 +160,9 @@
               <!-- Grid column -->
               <div class="col-md-2 col-sm-1">
                 <h6 class="text-uppercase font-weight-bold">
-                  <img src="./images/medium-2.png" class="icons">
-                  <a href="#!" class="text-white"></a>
+                  <a href="https://medium.com/@pandersail" class="text-white">
+                    <img src="./images/medium-2.png" class="icons">
+                  </a>
                 </h6>
               </div>
               <!-- Grid column -->
@@ -169,8 +170,9 @@
               <!-- Grid column -->
               <div class="col-md-2 col-sm-1">
                 <h6 class="text-uppercase font-weight-bold">
-                  <img src="./images/twitter.png" class="icons">
-                  <a href="#!" class="text-white"></a>
+                  <a href="https://twitter.com/pandersail" class="text-white">
+                    <img src="./images/twitter.png" class="icons">
+                  </a>
                 </h6>
               </div>
               <!-- Grid column -->
@@ -178,8 +180,9 @@
               <!-- Grid column -->
               <div class="col-md-2 col-sm-1">
                 <h6 class="text-uppercase font-weight-bold">
-                  <img src="./images/github-sign.png" class="icons">
-                  <a href="#!" class="text-white"></a>
+                  <a href="https://github.com/pandersail" class="text-white">
+                    <img src="./images/github-sign.png" class="icons">
+                  </a>
                 </h6>
               </div>
               <!-- Grid column -->
@@ -187,8 +190,9 @@
               <!-- Grid column -->
               <div class="col-md-2 col-sm-1">
                 <h6 class="text-uppercase font-weight-bold">
-                  <img src="./images/email.png" class="icons">
-                  <a href="#!" class="text-white"></a>
+                  <a href="mailto:angeloantosilva@gmail.com" class="text-white">
+                    <img src="./images/email.png" class="icons">
+                  </a>
                 </h6>
               </div>
               <!-- Grid column -->
@@ -196,15 +200,17 @@
               <!-- Grid column -->
               <div class="col-md-2 col-sm-1">
                 <h6 class="text-uppercase font-weight-bold">
-                  <img src="./images/linkedin-2.png" class="icons">
-                  <a href="#!" class="text-white"></a>
+                  <a href="https://www.linkedin.com/in/angeloantosilva/" class="text-white">
+                    <img src="./images/linkedin-2.png" class="icons">
+                  </a>
                 </h6>
               </div>
               <!-- Grid column -->
               <div class="col-md-2 col-sm-1">
                 <h6 class="text-uppercase font-weight-bold">
-                  <img src="./images/instagram.png" class="icons">
-                  <a href="#!" class="text-white"></a>
+                  <a href="https://www.instagram.com/pandersailphotography/" class="text-white">
+                    <img src="./images/instagram.png" class="icons">
+                  </a>
                 </h6>
               </div>
               <!-- Grid column -->
@@ -218,7 +224,7 @@
           <!-- Section: Text -->
           <section class="mb-2">
             <div class="row d-flex justify-content-center">
-              <div class="col-lg-12">
+              <div class="col-lg-8">
                 <p>
                   "Be kind, for everyone you meet is fighting a hard battle." - Plato
                 </p>
@@ -239,22 +245,14 @@
         <!-- Copyright -->
         <div
             class="text-center p-2"
-            style="background-color: rgba(0, 0, 0, 0.2)"
-            >
-          © 2020 Copyright:
-          <a class="text-white" href="https://mdbootstrap.com/"
-            >MDBootstrap.com</a
-            >
+            style="background-color: rgb(208, 208, 187)">
+            <p>© 2023 Copyright: Angelo Silva</p>
         </div>
         <!-- Copyright -->
       </footer>
       <!-- Footer -->
-    </div>
+    </section>
     <!-- End of .container -->
-
-
-
-
     <!-- Bootstrap & JS-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
