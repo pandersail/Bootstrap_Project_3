@@ -26,6 +26,15 @@ body
   
 
 /* Header  */
+
+.navbar navbar-expand-lg navbar-light bg-light:hover {
+
+    background-color: #3e8e41
+}
+
+.nav-link:hover{
+    background-color: #3e8e41
+}
 .navbar-light .navbar-brand {
     color: beige;
 }
